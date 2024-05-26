@@ -8,9 +8,10 @@ import { useStore } from "@/app/store/app-store";
 
 export default function GamePage(props) {
     const [preloaderVisible, setPreloaderVisible] = useState(true);
-    let [game, setGame] = useState(null)
+    const [game, setGame] = useState(null)
     const [isVoted, setIsVoted] = useState(false);
     const authContext = useStore();
+
 
     useEffect(() => {
         async function fetchData() {

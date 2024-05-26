@@ -54,7 +54,7 @@ export const CardsSlider = (props) => {
           {props.data.map((item, i) => {
             return (
               <li className={`swiper-slide ${Styles["slide"]}`} key={i}>
-                <Link href={`/games/${item.id}`}>
+                <Link href={`/game/${item.id}`}>
                   <Card {...item} />
                 </Link>
               </li>

@@ -1,5 +1,6 @@
 export const BASE_URL = 'https://askicooladmin.nomoredomainswork.ru/api';
 
+
 export const isResponseOk = (response) => {
   return !(response instanceof Error);
 }; 

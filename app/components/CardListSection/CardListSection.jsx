@@ -1,5 +1,5 @@
 import Styles from "./ListCardSection.module.css"
-import { CardsList } from "./CardList";
+import { CardList } from "./CardList";
 import { CardsSlider } from "./CardSlider";
 
 export const CardsListSection = (props) => {
@@ -8,7 +8,7 @@ export const CardsListSection = (props) => {
       <h2 className={Styles["list-section__title"]} id={props.id}>
         {props.title}
       </h2>
-      {props.type === 'slider' ? <CardsSlider data={props.data} /> : <CardsList data={props.data} />}
+      {props.type === 'slider' ? <CardsSlider data={props.data} /> : <CardList data={props.data} />}
     </section>
   );
 }; 

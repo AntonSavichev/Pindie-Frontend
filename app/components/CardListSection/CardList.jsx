@@ -3,7 +3,7 @@ import Styles from "./ListCardSection.module.css";
 import { Card } from "../Card/Card";
 import Link from "next/link";
 
-export let CardList = (props) => {
+export const CardList = (props) => {
 
   return (
     <section className={Styles['list-section']}>
