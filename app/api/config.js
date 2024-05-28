@@ -1,4 +1,5 @@
 export const BASE_URL = 'https://askicooladmin.nomoredomainswork.ru/api';
+// export const BASE_URL = 'http://localhost:3001/api';
 
 
 export const isResponseOk = (response) => {
